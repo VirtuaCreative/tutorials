@@ -19,12 +19,12 @@ timezone: Lisbon/Portugal
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Virtua Reloaded                          # the main title
 
-tagline: A happy Jekylling website   # it will display as the sub-title
+tagline: A new website on the Matrix   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Testing Jekyll on Docker with GH Pages.
+  Jekyll on Docker with GitHub Pages.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://github.virtuacreative.com.br/'
@@ -81,7 +81,7 @@ theme_mode: dark
 img_cdn: 'https://demo-img.cotes.page'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: 'http://git.virtuacreative.com.br/img/logo-3.svg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
