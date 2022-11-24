@@ -37,7 +37,7 @@ To Deploy a Jekyll websiste in a Docker container locally:
 1. Run `docker-compose up`.
 1. Magic! It will take a couple minutes to build an image and run it in a container but, bam!
 It's up on `localhost:4000`.
-1. Type <kbd>Ctrl</kbd> + <kbd>C</kbd> to stop `jekyll server`.
+1. Type <kbd>Ctrl</kbd> + <kbd>C</kbd> to stop `jekyll serve`.
 1. Run `docker-compose down` to stop the Docker container when you're done.
 
 I've got a little help from [this guy](https://www.youtube.com/watch?v=ZHQ3IwIL590) to get this
