@@ -1,5 +1,5 @@
 ---
-title: "I'm back with Jekyll on Docker and GH Pages"
+title: "Jekyll on Docker and GitHub Pages"
 author: marcia
 date: 2022-11-22 20:45:00 +0100
 categories: [Blogging, Tutorial, Docker, Jekyll]
