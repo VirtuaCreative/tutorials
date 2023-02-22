@@ -11,12 +11,12 @@ image:
   alt: "Going back to Jekyll with the Chirpy Jekyll theme."
 ---
 
-# Reconciliation with Jekyll
+# Jekyll is great again
 
 There's been a couple of years I had left Jekyll behind me for a few reasons:
 
 1. One day I started a new Jekyll site and all I could find was a gem. How could
-I possibly think of customizing my layouts and CSS and everything else with a gem?
+I possibly think of quickly customizing my layouts and CSS and everything else with a gem?
 Way too time-consuming to figure out to change a link, a color, a border radius, whatever.
 Unbelievable.
 1. I started working on Ruby-based SSGs like Nanoc and Middleman.
@@ -34,7 +34,7 @@ so I decided to take another look at Jekyll to see what happened while I was els
 all my favorite `_xxx` folders are back! Woot woot! No bulldirt gems. So I couldn't wait to
 get my hands back on it.
 
-So I decided to install it again on my Macbook but I didn't want to make a mess
+So I decided to install it again on my MacBook but I didn't want to make a mess
 with tons of incompatible dependency managers. So I went for building a Jekyll site on a Docker
 container. Huge success! I explained how I made it work on a [previous blog post](../jekyll-on-docker-github-pages/).
 
