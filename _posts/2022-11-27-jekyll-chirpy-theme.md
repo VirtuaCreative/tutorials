@@ -2,10 +2,10 @@
 title: "Chirpy Jekyll theme rocks!"
 author: marcia
 date: 2022-11-27 21:15:00 +0100
-categories: [Blogging, Jekyll]
-tags: [web dev]
+categories: [Blogging]
+tags: [web dev, blogging, jekyll]
 image:
-  path: /commons/devices-mockup.png
+  path: '/posts/chirpy_theme.png'
   width: 800
   height: 500
   alt: "Going back to Jekyll with the Chirpy Jekyll theme."
