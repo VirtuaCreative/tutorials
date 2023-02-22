@@ -1,5 +1,5 @@
 ---
-title: "Jekyll on Docker and GitHub Pages"
+title: "Build Jekyll on Docker and Publish with GitHub Pages"
 author: marcia
 date: 2022-11-22 20:45:00 +0100
 categories: [Blogging, Tutorial, Docker, Jekyll]
@@ -12,21 +12,21 @@ image:
 pin: true
 ---
 
-# Jekyll on Docker? Hell yeah!
+# How to publish a Jekyll website on a Docker container and why
 
-This is a new Virtua Creative website. After a few years focusing on a full-time job,
-I'm back on playing around with different technologies and bringing tutorials to the community.
-Not sure how often I'll be blogging but I'll try to come back here more often.
+If you are wondering why someone would want to use Docker to generate
+something as simple as a static website, here's why:
 
-This website is based on the Jekyll theme "[Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/)",
-very nicely done. Adjusting the template for my website is still a WIP.
+> You install Docker on your computer, add a `docker-compose.yml` file to your site's root, and you're done.
+{: .prompt-info }
 
-The happy thing about this site that it is running on Docker with a `docker-compose.yml` file. Which means:
+This means:
+
 - No fuzzy dependency managers.
 - No Ruby crash-management chaos.
-- No "this-is-fine" dog to run your Jekyll site:
+- No extra dependencies to run your Jekyll site.
 
-## Jekyll on Docker
+## How to deploy a Jekyll website on Docker
 
 To Deploy a Jekyll websiste in a Docker container locally:
 
@@ -35,27 +35,20 @@ To Deploy a Jekyll websiste in a Docker container locally:
 1. Copy the [`docker-compose.yml`](https://github.com/VirtuaCreative/jekyll-on-docker/blob/pages/docker-compose.yml) file from this repo and put it in your Jekyll's root directory.
 1. Open the terminal on your Jekyll's website directory.
 1. Run `docker-compose up`.
-1. Magic! It will take a couple minutes to build an image and run it in a container but, bam!
-It's up on `localhost:4000`.
+1. Magic! It takes a couple minutes to build the image and run it in a container and bam, up and running on `localhost:4000`.
+
+To stop the server:
+
 1. Type <kbd>Ctrl</kbd> + <kbd>C</kbd> to stop `jekyll serve`.
-1. Run `docker-compose down` to stop the Docker container when you're done.
+1. Run `docker-compose down` to stop the Docker container.
 
-I've got a little help from [this guy](https://www.youtube.com/watch?v=ZHQ3IwIL590) to get this
-right, by the way. But the GH part I figure out on my own.
+## How to publish your Jekyll website on GitHub Pages
 
-## Jekyll on GitHub Pages
+Now that your Jekyll website is up and running, it's time to release it. For this tutorial,
+let's use GitHub Pages with GitHub Actions (their CI tool) to publish it:
 
-To get this site up and running on GitHub Pages, I tried the
-GitHub Actions thing. I think they could've given a
-better name for they CI tool, but that's me being nitty.
+1. Push your website's codebase to a repository on GitHub.
+1. Go to Settings > Pages > Source > GitHub Actions.
+1. Commit the prompted default template.
 
-It was easy too:
-
-1. I pushed the content to my repo.
-1. Went to Settings > Pages > Source > GitHub Actions.
-1. Committed the prompted default template.
-1. Magic. Done!
-
-Pretty cool. Worth giving it a try.
-
-Happy Jekylling!
+Magic. Done! Your website is up and running.
