@@ -9,7 +9,7 @@ image:
   width: 800
   height: 500
   alt: "Jekyll on Docker and GH Pages."
-pin: true
+# pin: true
 ---
 
 # How to publish a Jekyll website on a Docker container and why

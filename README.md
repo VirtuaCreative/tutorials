@@ -10,7 +10,4 @@ very nicely done. Adjusting the template for my website is still a WIP.
 
 I hope you enjoy the tutorials and feel free to fork and reuse the codebase, but don't forget the license.
 
-Read the [first blog post](https://github.virtuacreative.com.br/jekyll-on-docker/posts/jekyll-on-docker-github-pages/) 
-instead of the readme file, pretty please. 😉
-
-The website is available here: https://github.virtuacreative.com.br/jekyll-on-docker/ 
+Now I welcome you to read the [blog posts](https://github.virtuacreative.com.br/jekyll-on-docker/). 😉
