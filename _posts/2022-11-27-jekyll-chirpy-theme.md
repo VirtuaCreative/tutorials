@@ -1,5 +1,5 @@
 ---
-title: "Chirpy Jekyll theme rocks!"
+title: "Chirpy theme for Jekyll"
 author: marcia
 date: 2022-11-27 21:15:00 +0100
 categories: [Blogging]
@@ -11,7 +11,7 @@ image:
   alt: "Going back to Jekyll with the Chirpy Jekyll theme."
 ---
 
-# Jekyll is great again
+# Jekyll is thankfully great again
 
 There's been a couple of years I had left Jekyll behind me for a few reasons:
 
