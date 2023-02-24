@@ -32,7 +32,7 @@ To Deploy a Jekyll websiste in a Docker container locally:
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 1. Download a Jekyll theme, start a new site from stratch, or use your own.
-1. Copy the [`docker-compose.yml`](https://github.com/VirtuaCreative/jekyll-on-docker/blob/pages/docker-compose.yml) file from this repo and put it in your Jekyll's root directory.
+1. Copy the [`docker-compose.yml`](https://github.com/VirtuaCreative/tutorials/blob/pages/docker-compose.yml) file from this repo and put it in your Jekyll's root directory.
 1. Open the terminal on your Jekyll's website directory.
 1. Run `docker-compose up`.
 1. Magic! It takes a couple minutes to build the image and run it in a container and bam, up and running on `localhost:4000`.
