@@ -5,11 +5,8 @@ author: marcia
 date: 2023-02-23 18:16:00 +0100
 categories: [Tutorial]
 tags: [web dev, docker, kubernetes, traefik]
-image:
-  path: '/posts/proxy-wizard.png'
-  width: 800
-  height: 500
-  alt: "Proxy Wizard for Traefik Proxy"
+video: 'https://www.youtube.com/embed/JaTITCVcUn0'
+video-alt: 'Watch the video walk-through'
 ---
 
 # Launch Traefik Proxy in a Kubernetes cluster with Proxy Wizard

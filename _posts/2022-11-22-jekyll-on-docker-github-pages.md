@@ -1,5 +1,5 @@
 ---
-title: "Build Jekyll on Docker and Publish with GitHub Pages"
+title: "Build Jekyll on Docker and publish with GitHub Pages"
 author: marcia
 date: 2022-11-22 20:45:00 +0100
 categories: [Tutorial]
