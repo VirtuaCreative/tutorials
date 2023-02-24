@@ -52,6 +52,19 @@ tail_includes:
       {% endif %}
 
     </div>
+
+    {% else %}
+      {% if page.video %}
+        <div class="mt-3 mb-3">
+          <div class="iframe_container">
+              <iframe width="853" height="480" src="{{ page.video }}" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+          </div>
+          {% if page.video-alt %}
+            <figcaption class="text-center pt-2 pb-2">{{ page.video-alt }}</figcaption>
+          {% endif %}
+        </div>
+      {% endif %}
+
   {% endif %}
 
   <div class="d-flex justify-content-between">
