@@ -90,7 +90,7 @@ Check the [Traefik Proxy documentation](https://doc.traefik.io/traefik/) for det
 ### Publish your application
 
 You can use [Traefik Hub](https://doc.traefik.io/traefik-hub/) to publish your Kubernetes application to the
-web in [a few steps](https://github.com/VirtuaCreative/traefik-wizard/blob/main/docs/publish.md).
+web in [a few steps](../publish-kubernetes-cluster-app-free-traefik-hub/).
 Watch a follow-up [video tutorial](https://youtu.be/toWxWTw2tEY) to learn how to do it.
 
 ## Assets
