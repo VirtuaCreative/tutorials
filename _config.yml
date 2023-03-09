@@ -21,7 +21,7 @@ timezone: Lisbon/Portugal
 
 title: Virtua Reloaded                          # the main title
 
-tagline: A new website on the Matrix   # it will display as the sub-title
+tagline: A new blog in the Matrix   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A new blog for Virtua Creative tutorials.
