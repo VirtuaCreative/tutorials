@@ -74,6 +74,9 @@ After a few minutes, you can monitor your application from the same screen.
 
 ## Configure access control
 
+If you'd like to restrict access to your application, you can configure
+access control.
+
 ### Choose the authentication method
 
 Traefik Hub offers three authentication methods:
